@@ -14,3 +14,5 @@ var orderPizza = function () {
         console.log(sauce),
         console.log(addToppings())
 }
+
+orderPizza();
