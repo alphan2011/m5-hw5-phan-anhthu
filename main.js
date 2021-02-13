@@ -4,7 +4,7 @@ var pizza = {
     sauce: "marinara",
     addToppings:
         function () {
-            console.log("Please add pepperoni and sausage");
+            return ("Please add pepperoni and sausage");
         }
 };
 
