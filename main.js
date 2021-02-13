@@ -9,10 +9,10 @@ var pizza = {
 };
 
 var orderPizza = function () {
-    console.log(crust),
-        console.log(cheese),
-        console.log(sauce),
-        console.log(addToppings())
+    console.log(pizza.crust);
+    console.log(pizza.cheese);
+    console.log(pizza.sauce);
+    console.log(pizza.addToppings());
 }
 
 orderPizza();
